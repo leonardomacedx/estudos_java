@@ -48,6 +48,8 @@ public class Program {
 		Account acc8 = new BusinessAccount(1003, "Joao", 1000.0, 5000.0);
 		acc8.withdraw(200.0);
 		System.out.println(acc8.getBalance());
+		
+		System.out.println("Eu amo Karol");
 	}
 
 }
