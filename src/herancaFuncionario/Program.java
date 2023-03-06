@@ -43,9 +43,8 @@ public class Program {
 
 		System.out.println();
 		System.out.println("PAYMENTS: ");
-		System.out.println();
 		for (Employee fim : func) {
-			System.out.printf(fim.getName() + " - $ " + fim.payment() + "\n");
+			System.out.println(fim.getName() + " - $ " + String.format("%.2f", fim.payment()));
 		}
 
 		sc.close();
